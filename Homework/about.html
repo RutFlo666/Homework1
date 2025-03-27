@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            background-image: url("images/bg-triangle.png");
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+
+        h1 {
+            font-size: 240%;
+            margin-top: 140px;
+        }
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+        .intro {
+            clear: left;
+            font-size: 90%;
+            line-height: 1.4em;
+        }
+        .main-story {
+            background-image: url("images/triangles.png");
+            background-repeat: no-repeat;
+            background-position: 122px 142px;
+            height: 570px;
+        }
+        .more-articles {
+            border-top: 1px solid #ffffff;
+            padding: 10px;
+        }
+        .more-articles p {
+            border-bottom: 1px solid #807c72;
+            padding: 5px 0px 15px 0px;
+            font-size: 80%;
+        }
+        .more-articles p:last-child {
+            border-bottom: none;
+        }
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <a href="example.html"><img src="images/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" /></a>
+                <img src="images/header-triangle.png" alt="" width="116" height="100" />
+            </div>
+            <div class="nav grid_7">
+                <a href="example.html">home</a> / <a href="news.html">news</a> / <a href="archives.html">archives</a> / <a href="about.html">about</a> / <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="main-story container_12">
+            <div class="grid_6 push_6">
+                <h1><a href="https://en.wikipedia.org/wiki/Fixed-gear_bicycle">Fixed Gear Forever</a></h1>
+            </div>
+            <div class="intro grid_3 push_9">
+                <p class="name">About Us</p>
+                <p>
+                    We are TheFixedGearShop, an e-commerce start-up from the Netherlands. As you can 
+                    probably tell, we sell bikes, and we’re passionate about them. Our aim is to give you the best and 
+                    most comfortable selections in fixed gear bicycles, city bicycles, parts, 
+                    and accessories based on your price range.
+                </p>
+                <p>
+                    We don’t just focus on selling the bicycle, we also want 
+                    you to have the best experience imaginable by 
+                    providing quality service.
+                </p>
+            </div>
+            <div class="more-articles container_12">
+                <h1 class="grid_12">Information</h1>
+                <div class="grid_3">
+                <p>
+                    2014 is the year this baby was born. This idea 
+                    blossomed into a passionate company well known 
+                    by its customers and in its industry
+                </p>
+                </div>
+                <div class="grid_3">
+                    <p>
+                        With a growing team of enthusiastic marketing managers, developers and 
+                        customer service heroes, we work on a daily basis to get you the 
+                        perfect bike, part, accessories or clothing to your collection.
+                    </p>
+                </div>
+                <div class="grid_3">
+                    <p>
+                        We believe that everyone should be able to ride an amazing bicycle. 
+                        We are very proud of our culture, collection and the quality 
+                        that we can guarantee to our customers. We strive to connect 
+                        with our customers instead of seeing them as just our customer. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12"><a href="legal.html">Legal Information</a> | <a href="privacy.html">Privacy Policy</a> | <a href="Copyright.html">Copyright &copy; Pedal Faster 2025</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
